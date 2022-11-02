@@ -3,3 +3,4 @@
 function name(params) {
     
 }
+//dicas
