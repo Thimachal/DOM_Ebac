@@ -5,8 +5,22 @@ function validaNome(nomeCompleto){
     return nomeArray.length >=2;
 }
 
+const numeroA = document.getElementById('num-conta');
+const numeroB = document.getElementById('val-deposito');
+
+
 form.addEventListener('submit', function(event) {
     event.preventDefault();
+
+
+
+    if(numeroA >= numeroB){
+        alert("Numero A é maior que o número B");
+    }
+    if (numeroB >= numeroA){
+        alert("Numero B é maior que o número A");
+
+    } 
 
     const nomeBenficioario = document.getElementById('nome-beneficiario');
 
@@ -16,15 +30,7 @@ form.addEventListener('submit', function(event) {
         alert("Tudo ok");
     }
 
-    const numeroA = document.getElementById('num-conta');
-    const numeroB = document.getElementById('val-deposito');
-
-    if(numeroA > numeroB){
-        alert("Numero A é maior que o número B");
-    }else if (numeroB > numeroA){
-        alert("Numero B é maior que o número A");
-
-    } 
+    
 
 
 })
