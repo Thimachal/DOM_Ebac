@@ -13,7 +13,7 @@ form.addEventListener('submit', function(event) {
     if (!validaNome(nomeBenficioario.value)){
         alert("Nome Incompleto");
     }else{
-        alert
+        alert("Tudo ok");
     }
 
 })
