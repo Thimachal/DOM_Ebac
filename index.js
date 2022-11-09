@@ -11,7 +11,7 @@ form.addEventListener('submit', function(event) {
     const nomeBenficioario = document.getElementById('nome-beneficiario');
 
     if (!validaNome(nomeBenficioario.value)){
-        
+        alert("Nome Incompleto");
     }
 
 
