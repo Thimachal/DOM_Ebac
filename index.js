@@ -5,6 +5,19 @@ function validaNome(nomeCompleto){
     return nomeArray.length >=2;
 }
 
+function validaMaiorNumero(numA, numB) {
+    if(numA > numB){
+        return numA;
+    }
+    if (numB > numA){
+        return numB;
+    }
+    if (numA === numB){
+        alert("são iguais");
+    }
+    
+}
+
 const numeroA = document.getElementById('num-conta');
 const numeroB = document.getElementById('val-deposito');
 
@@ -12,15 +25,7 @@ const numeroB = document.getElementById('val-deposito');
 form.addEventListener('submit', function(event) {
     event.preventDefault();
 
-
-
-    if(numeroA >= numeroB){
-        alert("Numero A é maior que o número B");
-    }
-    if (numeroB >= numeroA){
-        alert("Numero B é maior que o número A");
-
-    } 
+    if(validaMaiorNumero
 
     const nomeBenficioario = document.getElementById('nome-beneficiario');
 
