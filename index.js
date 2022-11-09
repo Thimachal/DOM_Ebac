@@ -7,5 +7,8 @@ function validaNome(nomeCompleto){
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
+
+    const nomeBenficioario = document.getElementById('nome-beneficiario');
+
 })
 
