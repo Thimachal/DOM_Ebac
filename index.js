@@ -5,13 +5,14 @@ function validaNome(nomeCompleto){
     return nomeArray.length >=2;
 }
 
-const numeroA = document.getElementById('num-conta');
-const numeroB = document.getElementById('val-deposito');
+
 
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
 
+    const numeroA = document.getElementById('num-conta');
+const numeroB = document.getElementById('val-deposito');
 
 
     if(numA > numB){
