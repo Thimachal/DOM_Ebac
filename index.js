@@ -1,1 +1,1 @@
-const form = document.getElementById('form-deposito').
+const form = document.getElementById('form-deposito');
