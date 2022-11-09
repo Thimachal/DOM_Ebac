@@ -6,15 +6,7 @@ function validaNome(nomeCompleto){
 }
 
 function validaMaiorNumero(numA, numB) {
-    if(numA > numB){
-        return numA;
-    }
-    if (numB > numA){
-        return numB;
-    }
-    if (numA === numB){
-        alert("são iguais");
-    }
+    
     
 }
 
@@ -25,7 +17,7 @@ const numeroB = document.getElementById('val-deposito');
 form.addEventListener('submit', function(event) {
     event.preventDefault();
 
-    if(validaMaiorNumero
+
 
     const nomeBenficioario = document.getElementById('nome-beneficiario');
 
