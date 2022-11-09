@@ -16,5 +16,8 @@ form.addEventListener('submit', function(event) {
         alert("Tudo ok");
     }
 
+    const numeroA = document.getElementById('num-conta');
+    const numerob = document.getElementById('');
+
 })
 
