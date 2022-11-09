@@ -12,9 +12,10 @@ form.addEventListener('submit', function(event) {
     event.preventDefault();
 
     const numeroA = document.getElementById('num-conta');
-const numeroB = document.getElementById('val-deposito');
+/*const numeroB = document.getElementById('val-deposito');*/
 
-
+alert(numeroA);
+/*
     if(numeroA > numeroB){
         alert("A");
     }
@@ -24,7 +25,7 @@ const numeroB = document.getElementById('val-deposito');
     if (numeroA === numeroB){
         alert("são iguais");
     }
-
+*/
 
     const nomeBenficioario = document.getElementById('nome-beneficiario');
 
