@@ -17,7 +17,7 @@ form.addEventListener('submit', function(event) {
     }
 
     const numeroA = document.getElementById('num-conta');
-    const numerob = document.getElementById('');
+    const numerob = document.getElementById('val-deposito');
 
 })
 
