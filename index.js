@@ -17,7 +17,15 @@ form.addEventListener('submit', function(event) {
     }
 
     const numeroA = document.getElementById('num-conta');
-    const numerob = document.getElementById('val-deposito');
+    const numeroB = document.getElementById('val-deposito');
+
+    if(numeroA > numeroB){
+        alert("Numero A é maior que o número B");
+    }else if (numeroB > numeroA){
+        alert("Numero B é maior que o número A");
+
+    } 
+
 
 })
 
