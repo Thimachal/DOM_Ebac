@@ -19,7 +19,7 @@ const numeroB = document.getElementById('val-deposito');
         alert("A");
     }
     if (numeroB > numeroA){
-        return numeroB;
+        alert("B");
     }
     if (numeroA === numeroB){
         alert("são iguais");
