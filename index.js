@@ -14,6 +14,17 @@ form.addEventListener('submit', function(event) {
 
 
 
+    if(numA > numB){
+        return numA;
+    }
+    if (numB > numA){
+        return numB;
+    }
+    if (numA === numB){
+        alert("são iguais");
+    }
+
+
     const nomeBenficioario = document.getElementById('nome-beneficiario');
 
     if (!validaNome(nomeBenficioario.value)){
