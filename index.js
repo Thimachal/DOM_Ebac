@@ -5,11 +5,6 @@ function validaNome(nomeCompleto){
     return nomeArray.length >=2;
 }
 
-function validaMaiorNumero(numA, numB) {
-    
-    
-}
-
 const numeroA = document.getElementById('num-conta');
 const numeroB = document.getElementById('val-deposito');
 
