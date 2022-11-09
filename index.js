@@ -15,13 +15,13 @@ form.addEventListener('submit', function(event) {
 const numeroB = document.getElementById('val-deposito');
 
 
-    if(numA > numB){
-        return numA;
+    if(numeroA > numeroB){
+        return numeroA;
     }
-    if (numB > numA){
-        return numB;
+    if (numeroB > numeroA){
+        return numeroB;
     }
-    if (numA === numB){
+    if (numeroA === numeroB){
         alert("são iguais");
     }
 
