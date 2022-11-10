@@ -12,20 +12,19 @@ form.addEventListener('submit', function(event) {
     event.preventDefault();
 
     const numeroA = document.getElementById('num-conta');
-/*const numeroB = document.getElementById('val-deposito');*/
+const numeroB = document.getElementById('val-deposito');
 
-alert(numeroA);
-/*
-    if(numeroA > numeroB){
+
+    if(numeroA.value > numeroB.value){
         alert("A");
     }
-    if (numeroB > numeroA){
+    if (numeroB.value > numeroA.value){
         alert("B");
     }
-    if (numeroA === numeroB){
+    if (numeroA.value === numeroB.value){
         alert("são iguais");
-    }
-*/
+    }*/
+
 
     const nomeBenficioario = document.getElementById('nome-beneficiario');
 
