@@ -5,9 +5,6 @@ function validaNome(nomeCompleto){
     return nomeArray.length >=2;
 }
 
-
-
-
 form.addEventListener('submit', function(event) {
     event.preventDefault();
 
