@@ -23,7 +23,7 @@ const numeroB = document.getElementById('val-deposito');
     }
     if (numeroA.value === numeroB.value){
         alert("são iguais");
-    }*/
+    }
 
 
     const nomeBenficioario = document.getElementById('nome-beneficiario');
